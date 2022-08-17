@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href=".css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <style>
+        .line {
+            width: 19px;
+            background-color: rgba(255, 255, 255, 0.6);
+            display: flex;
+        }
+
+        .first {
+            min-height: 66px;
+            margin-left: 50px;
+            margin-top: 30px;
+
+        }
+
+        body {
+            background-color: black;
+        }
+
+        #one {
+            height: 3px;
+        }
+
+        #two {
+            margin-top: 3px;
+            height: 1.7px;
+        }
+
+        #three {
+            margin-top: 4px;
+            height: 1.3px;
+        }
+
+        .logo {
+            margin-left: 20px;
+            margin-top: 15px;
+        }
+
+        .maindiv {
+            display: flex;
+        }
+
+        #logo {
+            height: 36px;
+
+        }
+
+        .search-box {
+            border: none;
+            border-bottom: 1px solid #aaa;
+            background: transparent;
+            outline: none;
+            height: 30px;
+            color: #fff;
+            display: flex;
+            width: 210px;
+            text-transform: capitalize;
+            font-size: 16px;
+            font-weight: 500;
+            margin-top: 26px;
+            margin-left: 560px;
+        }
+
+
+
+        #para {
+            text-decoration: none;
+            margin-left: 20px;
+            text-transform: capitalize;
+            color: #fff;
+            opacity: 0.9;
+            font-style: normal;
+            display: flex;
+            margin-top: 30px;
+            font-weight: 20px;
+            font-family: sans-serif;
+        }
+
+        .sub-btn {
+            background: #1f80e0;
+            height: 25px;
+            width: 82px;
+            padding: 1 13px;
+            color: #fff;
+            border-radius: 5px;
+            border: none;
+            outline: none;
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: 12px;
+            margin-left: 20px;
+            margin-top: 25px;
+
+        }
+
+
+        .log {
+            height: 26px;
+            margin-top: 24px;
+            margin-left: 20px;
+        }
+
+        .second {
+            margin-left: 25px;
+            width: 1420px;
+            height: 500px;
+            border-radius: 10px;
+
+        }
+
+        .third {
+            display: flex;
+
+        }
+
+
+        .second {
+            margin-left: 25px;
+            width: 1420px;
+            height: 500px;
+            border-radius: 10px;
+
+
+        }
+
+        #lin {
+            margin-top: 10px;
+            margin-left: 35px;
+            border-radius: 7px;
+            width: 270px;
+
+        }
+
+        #vin {
+            margin-top: 10px;
+            margin-left: 30px;
+            border-radius: 7px;
+            height: 197px;
+            width: 170px;
+
+        }
+
+        #pin {
+            margin-top: 10px;
+            margin-left: 10px;
+            border-radius: 7px;
+            height: 197px;
+            width: 170px;
+
+        }
+
+        #pin1 {
+            margin-top: 10px;
+            margin-left: 10px;
+            border-radius: 7px;
+            height: 197px;
+            width: 47px;
+
+        }
+
+        button {
+            background-color: black;
+            border-bottom: 1px solid gray;
+            color: #fff;
+            margin-bottom: 1px;
+            
+        }
+
+        #min {
+            margin-top: 10px;
+            margin-left: 10px;
+            border-radius: 7px;
+            height: 140px;
+            width: 270px;
+
+        }
+
+        .icon {
+            height: 15px;
+            width: 16px;
+            margin-left: 130px;
+            margin-top: 2px;
+
+        }
+
+
+        #nin {
+            margin-top: 10px;
+            margin-left: 10px;
+            border-radius: 7px;
+            height: 140px;
+            width: 270px;
+        }
+
+        #nin1 {
+            margin-top: 10px;
+            margin-left: 10px;
+            border-radius: 7px;
+            height: 140px;
+            width: 82px;
+        }
+
+        h4 {
+            margin-top: 40px;
+            margin-left: 35px;
+            color: white;
+            font-family: "Roboto", "HelveticaNeue-Light", sans-serif;
+            font-size: 20px;
+        }
+
+        .lin {
+            margin-left: 50px;
+            height: 140px;
+            width: 270px;
+        }
+
+        .vin {
+            margin-left: 50px;
+
+        }
+
+        .form {
+            display: flex;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="maindiv">
+        <div class="first">
+            <span class="line" id="one"></span>
+            <span class="line" id="two"></span>
+            <span class="line" id="three"></span>
+
+        </div>
+        <div class="logo">
+            <img src="logo1.svg" id="logo">
+        </div>
+        <div>
+            <p id="para">TV</p>
+        </div>
+        <div>
+            <p id="para">Movies</p>
+        </div>
+        <div>
+            <p id="para">Sports</p>
+        </div>
+        <div>
+            <p id="para">Disney+</p>
+        </div>
+        <div>
+            <p id="para">Premium</p>
+        </div>
+        <div>
+            <div class="form">
+                <form>
+                    <button class="search-box">Search
+                        <img class="icon" src="icon.svg"></button>
+                </form>
+
+            </div>
+
+        </div>
+        <div>
+            <button class="sub-btn">subscribe</button>
+        </div>
+        <div>
+            <img src="lo.svg" class="log">
+        </div>
+    </div>
+    </div>
+
+    <div class="second1">
+        <div class="second">
+            <img src="me1.jpg" class="second">
+        </div>
+
+    </div>
+    <div>
+        <h4>Continue Watching</h4>
+        <div class="third">
+
+
+            <div>
+                <img id="lin" class="lin" src="ma.jpg">
+            </div>
+            <div>
+                <img id="min" src="nu.jpg">
+
+            </div>
+            <div>
+                <img id="nin" src="ne.jpg">
+            </div>
+            <div>
+                <img id="nin" src="li.jpg">
+            </div>
+            <div>
+                <img id="nin" src="le.jpg">
+            </div>
+            <div>
+                <img id="nin1" src="nee.jpg">
+            </div>
+
+        </div>
+
+    </div>
+
+    <div>
+        <h4>Popular Shows</h4>
+        <div class="third">
+
+
+            <div>
+                <img id="vin" class="lin" src="we1.jpg">
+            </div>
+            <div>
+                <img id="pin" src="we2.jpg">
+
+            </div>
+            <div>
+                <img id="pin" src="we3.jpg">
+            </div>
+            <div>
+                <img id="pin" src="we4.jpg">
+            </div>
+            <div>
+                <img id="pin" src="we5.jpg">
+            </div>
+            <div>
+                <img id="pin" src="we6.jpg">
+            </div>
+            <div>
+                <img id="pin" src="we7.jpg">
+            </div>
+            <div>
+                <img id="pin" src="we9.jpg">
+            </div>
+            <div>
+                <img id="pin1" src="we211.jpg">
+            </div>
+
+        </div>
+
+    </div>
+    <div>
+        <h4>Movies Recommended for You</h4>
+        <div class="third">
+
+
+            <div>
+                <img id="vin" class="lin" src="l1.jpg">
+            </div>
+            <div>
+                <img id="pin" src="l2.jpg">
+
+            </div>
+            <div>
+                <img id="pin" src="l3.jpg">
+            </div>
+            <div>
+                <img id="pin" src="tre3.jpg">
+            </div>
+            <div>
+                <img id="pin" src="l5.jpg">
+            </div>
+            <div>
+                <img id="pin" src="tre1.jpg">
+            </div>
+            <div>
+                <img id="pin" src="tre4.jpg">
+            </div>
+            <div>
+                <img id="pin" src="tr.jpg">
+            </div>
+            <div>
+                <img id="pin1" src="cr1.jpg"> -->
+            </div>
+
+        </div>
+
+    </div> -->
+    --> -->
+
+    -->
+
+</body>
+
+</html>
+</body>
+
+</html>
